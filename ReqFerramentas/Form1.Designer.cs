@@ -53,6 +53,7 @@
             this.btnColaboradores.TabIndex = 1;
             this.btnColaboradores.Text = "Gerir Colaboradores";
             this.btnColaboradores.UseVisualStyleBackColor = true;
+            this.btnColaboradores.Click += new System.EventHandler(this.btnColaboradores_Click);
             // 
             // btnRequisicoes
             // 
